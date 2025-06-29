@@ -9,7 +9,8 @@ on:
       - .github/workflows/markdownlint.yml
       - .markdownlint.yaml
       - '**.md'
-
+permissions:
+  contents: read
 jobs:
   markdownlint:
     runs-on: ubuntu-latest
