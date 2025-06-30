@@ -9,6 +9,8 @@ on:
       - .github/workflows/protobuf-dockerimage.yml
       - protobuf/Dockerfile
       - protobuf/protoc-wrapper
+permissions:
+  contents: read
 
 jobs:
   build:
